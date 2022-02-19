@@ -1,3 +1,5 @@
+# Command to run the code - python .\demo.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm .\test_media_Damonte.mp3
+
 from scipy.spatial import distance as dist
 from imutils.video import VideoStream
 from imutils import face_utils
@@ -118,4 +120,3 @@ while True:
 cv2.destroyAllWindows()
 vs.stop()
 
-# python .\demo.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm .\test_media_Damonte.mp3
